@@ -146,14 +146,6 @@ def str_to_bin(user_input):
             binary_representation += binary_char
             # binary_representation = binary_representation[:64]
         
-        # print("before padding", binary_representation, len(binary_representation))
-        # Pad or truncate the binary representation to 64 bits
-        # binary_representation = binary_representation[:64].ljust(64, '0')
-        
-        # Print the binary representation
-        # print("Binary representation of input string: ", binary_representation)
-        # print(len(binary_representation), 'bits of input string')
-        
         return binary_representation
 
 
